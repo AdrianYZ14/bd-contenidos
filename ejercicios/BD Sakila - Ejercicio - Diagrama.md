@@ -1,4 +1,4 @@
-# Diagrama de la base de datos Sakila
+# diagrama de la base de datos Sakila
 
 ```mermaid
 erDiagram 
