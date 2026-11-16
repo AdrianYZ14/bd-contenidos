@@ -264,7 +264,9 @@ Escribe una consulta SQL para seleccionar las columnas título (`titulo`) y repr
 
 Solución:
 ```sql
-
+SELECT titulo, reproducciones
+FROM cancion_muestra
+ORDER BY  reproducciones desc
 ```
 
 | titulo                | reproducciones |
@@ -408,7 +410,8 @@ Escribe una consulta para seleccionar las distintas combinaciones de país (`pai
 
 Solución:
 ```sql
-
+SELECT DISTINCT pais, genero
+FROM cancion
 ```
 
 | pais           | genero |
@@ -463,7 +466,9 @@ Escribe una consulta para seleccionar las reproducciones (`reproducciones`) de l
 
 Solución:
 ```sql
-
+SELECT reproducciones
+FROM cancion
+WHERE reproducciones 
 ```
 
 | reproducciones |
